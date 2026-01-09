@@ -1,23 +1,63 @@
-# singapore-number-code
-code to generate singapore all possible mobile phone numbers.
+# Singapore Phone Number Generator
 
-<p align="left">
-  <img src="https://cdn1.singteldigital.com/content/dam/singtel/online-draft/singtel_logo_coloured.png" />
-</p>
-<p align="left">
-  <img src="https://www.starhub.com/etc/designs/starhub/clientlibs/revamp/img/sh-logo.svg" 
-    width="100"
-    height="100" />
-</p>
-<p align="left">
-  <img src="https://www.m1.com.sg/-/media/M1/M1CP/Feature/Identity/Logo/logo.png" />
-</p>
+A Python script to generate all possible Singapore mobile and landline phone numbers.
 
-## Disclaimer:
-1. USE AT OWN DISCRETION
-2. FOR EDUCATIONAL PURPOSES ONLY
+## Description
 
-## Instructions:
-1. Download the repo as a zip file
-2. Unzip the file
-3. Double click python file to run the programme
+This project generates comprehensive lists of valid Singapore phone numbers based on the official numbering plan. It creates text files containing all possible combinations for PSTN/residential lines (6xxx), mobile/data services (8xxx), and mobile/pager numbers (9xxx). Useful for testing, data validation, or educational purposes.
+
+## Features
+
+- Generates all 6xxx xxxx numbers (Public Switched Telephone Network and Residential IP Telephony Services)
+- Generates all 8zxx xxxx numbers (Mobile, Data Services, New Numbers, and Prepaid Numbers)
+- Generates all 9yxx xxxx numbers (Mobile, Data Services, and Pager)
+- Outputs to separate text files for easy access
+
+## Technologies Used
+
+- Python 3.x
+
+## Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/bryanseah234/sgNumbers2020.git
+
+# Navigate to project directory
+cd sgNumbers2020
+```
+
+## Usage
+
+```bash
+# Run the script
+python numbers.py
+```
+
+This will generate three text files:
+- `six.txt` - Contains 6xxx xxx numbers (6000000 to 6999998)
+- `eight.txt` - Contains 8zxx xxxx numbers (81000000 to 89999998)
+- `nine.txt` - Contains 9yxx xxxx numbers (90000000 to 98999998)
+
+### Number Format Reference
+
+| Prefix | Range | Service Type |
+|--------|-------|--------------|
+| 6xxx xxx | 6000000 - 6999998 | PSTN and Residential IP Telephony |
+| 8zxx xxxx | 81000000 - 89999998 | Mobile, Data Services, New Numbers, Prepaid |
+| 9yxx xxxx | 90000000 - 98999998 | Mobile, Data Services, Pager |
+
+**Note:** z denotes 1-9 only, y denotes 0-8 only
+
+## Disclaimer
+
+1. FOR EDUCATIONAL PURPOSES ONLY
+2. USE AT YOUR OWN DISCRETION
+
+## License
+
+MIT License
+
+---
+
+**Author:** <a href="https://github.com/bryanseah234">bryanseah234</a>
