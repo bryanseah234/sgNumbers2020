@@ -1,4 +1,9 @@
 # singapore-number-code
+
+Live demo: https://hongyime.github.io/sgNumbers2020/
+
+![Project screenshot](./screenshot.png)
+
 code to generate singapore all possible mobile phone numbers.
 
 <p align="left">
